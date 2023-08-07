@@ -1,81 +1,53 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: The Life Cycle
+description: By Alan Tian, Aakash Kumar, Sooraj Vydyanathan, Amanjyoti Mridha
+img: assets/img/lifecycle.png
 importance: 2
-category: work
-giscus_comments: true
+category: hackathons
 ---
+<div class="row">
+<iframe width="786" height="555" src="https://www.youtube.com/embed/ztoc4f0ujq4" title="The Life Cycle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<br>
+<h1>Inspiration</h1>
+I'm sure everyone has heard of global warming, climate change, and the need to reduce greenhouse gases in the atmosphere. While traditional methods, such as rallying others through social media or hosting clean-ups are essential, we wanted to apply computing power to be able to better address this issue.
+<br>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+<h1>What it does</h1>
+The user will upload an image to our website. This image is fed through a neural network and different pieces of plastic will be identified.
+<br>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/life1.jpg" title="Home" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/life3.jpg" title="Results" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Home page and an example of the results page.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<h1>How we built it</h1>
+We used Django as a framework. All web pages were written from scratch. The model utilized Google's Inceptionv3 image classification model. The library used was Tensorflow.
+<br>
+<h1>Challenges we ran into</h1>
+The biggest challenge was training a model that worked. We tried many different models, such as resnet18 (75% accuracy), mobile-net (60% accuracy), and even tried writing a custom network. We tried implementing them in both Pytorch and Tensorflow. Unfortunately, all failed to achieve an acceptable accuracy. Even our final model, Inception, only achieved around an 80% accuracy.
 
+Another challenge we faced was connecting our frontend and backend. We had a hard time passing the image from the upload interface to our model input.
+<br>
+<h1>Accomplishments that we're proud of</h1>
+While we knew that training the model would be the most difficult task, we were proud that we were able to write almost all the code for the website within the first day.
+<br>
+<h1>What we learned</h1>
+We learned a lot about web development during this Hackathon. Many of us have had prior experience with machine learning and training models, but this Hackathon was a great way for us to gain experience implementing a website using HTML/CSS.
+<br>
+<h1>What's next for TheLifeCycle</h1>
+Our goal is to create a model capable of achieving multiclass classification, which would be capable of telling the user what type of trash they have uploaded (ie: paper, plastic, cardboard, etc) instead of telling the user if it is only recyclable/organic. In addition, we would like to increase our current model's classification accuracy.
+<br>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<h5 style="text-align:center;">    
+    <a href="https://devpost.com/software/thelifecycle#updates">Devpost Page</a>&nbsp;&nbsp;
+    <a href="https://github.com/TheRealAakash/TheLifeCycle">Github Repo</a>
+</h5>
