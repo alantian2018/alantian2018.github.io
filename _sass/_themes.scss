@@ -16,6 +16,7 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
   --global-card-bg-color: #{$white-color};
+  --global-h2-color: #5e5e5e;   
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -29,6 +30,7 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  
 
   .fa-sun {
     display : none;
@@ -48,8 +50,8 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
+  --global-bg-color: #232323	;
+  --global-code-bg-color: #232323;
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};
   --global-theme-color: #{$cyan-color};
@@ -59,8 +61,9 @@ html[data-theme='dark'] {
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
+  --global-divider-color: #d1d1d1b6;
   --global-card-bg-color: #{$grey-900};
+  --global-h2-color: #b7b6b6;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

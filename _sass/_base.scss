@@ -536,8 +536,8 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-h2-color);
+    border-bottom: 1px solid var(--global-h2-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -568,8 +568,8 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-h2-color);
+    border-top: 1px solid var(--global-h2-color);
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
