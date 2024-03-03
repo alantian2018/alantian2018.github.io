@@ -4,7 +4,7 @@ title: The Life Cycle
 description: By Alan Tian, Aakash Kumar, Sooraj Vydyanathan, Amanjyoti Mridha
 img: assets/img/lifecycle.png
 importance: 2
-category: hackathons
+category: Hackathons
 ---
 <div class="row">
 <iframe width="786" height="555" src="https://www.youtube.com/embed/ztoc4f0ujq4" title="The Life Cycle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

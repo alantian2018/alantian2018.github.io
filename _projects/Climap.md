@@ -1,10 +1,10 @@
 ---
 layout: page
-title: climap
+title: Climap
 description: By Alan Tian,  Amanjyoti Mridha, Aakash Kumar, Sooraj Vydyanathan
 img: assets/img/climap.png
 importance: 1
-category: hackathons
+category: Hackathons
 ---
 <div class="row">
 <iframe width="1045" height="588" src="https://www.youtube.com/embed/5diupKrQ3Uc" title="AugmentedHacks - Climap: An Interactive Map to Predict Future Trends in Climate Change" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -4,7 +4,7 @@ title: Credibility
 description: By Alan Tian, Aakash Kumar, Sooraj Vydyanathan, Amanjyoti Mridha
 img: assets/img/credibility.png
 importance: 3
-category: hackathons
+category: Hackathons
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
