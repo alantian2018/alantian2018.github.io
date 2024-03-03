@@ -11,7 +11,7 @@ category: Reports
 
 <body>
     <hr/>
-    <div style="height:50vh">
+    <div style="height:90vh">
       <object data="{{ 'TextPSG_Reproducibility_Study.pdf' | append: '#toolbar=0&navpanes=0&scrollbar=0' | prepend: 'assets/pdf/' | relative_url }}"
        type="application/pdf" width="100%" height="100%">
       </object>
