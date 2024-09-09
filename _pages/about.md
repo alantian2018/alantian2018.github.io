@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
  # includes social icons at the bottom of the page
 ---
 
-Hello! I am a freshman  at the [Georgia Institute of Technology](https://www.gatech.edu/) majoring in Computer Science and specializing in the [Intelligence](https://www.cc.gatech.edu/academics/threads/intelligence) and [Theory](https://www.cc.gatech.edu/academics/threads/theory) threads.
+Hello! I am a second year at the [Georgia Institute of Technology](https://www.gatech.edu/) majoring in Computer Science and specializing in the [Intelligence](https://www.cc.gatech.edu/academics/threads/intelligence) and [Theory](https://www.cc.gatech.edu/academics/threads/theory) threads.
 
 
 
