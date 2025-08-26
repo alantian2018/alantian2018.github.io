@@ -2,12 +2,13 @@
 layout: post
 title: "Why is Computer Science a Science?"
 date: 2025-08-25
-categories: [essay, computer-science]
-tags: [computer-science, theory, computation, turing-machine, philosophy]
-description: "An exploration of what makes Computer Science a true science, focusing on the Theory of Computation and the foundational role of the Turing Machine."
+categories: 
+tags: 
+description: 
 featured: true
 thumbnail: /assets/img/prof_pic.jpg
 ---
+## Why is Computer Science a Science?
 
 When you think of Computer Science, what do you think of? 
 Programming?
